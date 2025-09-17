@@ -251,7 +251,7 @@ export default function Home() {
           </div>
 
           {/* Center - Contact & Resume */}
-          <div className="hidden xs:flex flex-1 justify-center">
+          <div className="hidden sm:flex flex-1 justify-center">
             <div className="flex items-center gap-3 sm:gap-4">
              
               {/* Resume with tooltip */}
@@ -368,7 +368,7 @@ export default function Home() {
                 )}
               >
                 <span>✕</span>
-                <span className="hidden xs:inline">Exit Full Screen</span>
+                <span className="hidden sm:inline">Exit Full Screen</span>
               </button>
               <div className="h-full pt-14 sm:pt-16">
                 <ModelCard
